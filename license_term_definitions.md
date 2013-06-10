@@ -1,6 +1,7 @@
 # License Term Definitions #
 
 by Linda Miller, Library of Congress; revised by Diane Grover, University of Washington
+
 NASIG Workshop: Mapping License Elements; Presented May 4, 2006
 
 Term                                                 | Definition                    | Example Language
