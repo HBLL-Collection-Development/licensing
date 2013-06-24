@@ -6,7 +6,7 @@ Licensing resources for libraries can be tricky. There is a lot to consider as y
 
 2. **[License Term Definitions](license_term_definitions.md)**: A brief list of standard terms found in license agreements with definitions and example license language. Original definitions by Linda Miller, Library of Congress, revised by Diane Grover, University of Washington, from NASIG Workshop: Mapping License Elements presented May 4, 2006. Used with Diane Grover’s permission.
 
-3. **License Summary Form**: This form distills the important terms typically included in license agreements and places them in a fill-in-the-blank worksheet. Filling this form out while reading through an agreement will allow you to quickly spot terms that need to be negotiated. Additionally, the form can be stored with the license making it easier to answer license questions later on reducing the need to refer to the license itself for every question about terms.
+3. **[License Summary Form](license_summary_form.pdf)**: This form distills the important terms typically included in license agreements and places them in a fill-in-the-blank worksheet. Filling this form out while reading through an agreement will allow you to quickly spot terms that need to be negotiated. Additionally, the form can be stored with the license making it easier to answer license questions later on reducing the need to refer to the license itself for every question about terms.
 
 4. **ProjectMuse License Agreement**: A real-world example of a license agreement.
 
