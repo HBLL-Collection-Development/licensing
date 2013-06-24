@@ -8,10 +8,10 @@ Licensing resources for libraries can be tricky. There is a lot to consider as y
 
 3. **[License Summary Form](license_summary_form.pdf)**: This form distills the important terms typically included in license agreements and places them in a fill-in-the-blank worksheet. Filling this form out while reading through an agreement will allow you to quickly spot terms that need to be negotiated. Additionally, the form can be stored with the license making it easier to answer license questions later on reducing the need to refer to the license itself for every question about terms.
 
-4. **ProjectMuse License Agreement**: A real-world example of a license agreement.
+4. **[ProjectMuse License Agreement](project_muse_license.md)**: A real-world example of a license agreement.
 
-5. **License Summary Form for ProjectMuse**: A license summary form filled out for the ProjectMuse license agreement.
+5. **[License Summary Form for ProjectMuse](project_muse_license_summary.pdf)**: A license summary form filled out for the ProjectMuse license agreement.
 
-6. **Business Source Premier Agreement**: A real-world example of a license agreement.
+6. **[Business Source Premier Agreement](business_source_premier_license.md)**: A real-world example of a license agreement.
 
-7. **License Summary Form for Business Source Premier**: A license summary form filled out for the Business Source Premier license agreement.
+7. **[License Summary Form for Business Source Premier](business_source_premier_license_summary.pdf)**: A license summary form filled out for the Business Source Premier license agreement.
