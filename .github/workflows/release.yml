@@ -10,14 +10,11 @@ jobs:
     runs-on: ${{ matrix.os_runner }}
     strategy:
       matrix:
-      include:
-        - platform: linux
-          os_runner: ubuntu-latest
-        - platform: macos
-          os_runner: macos-latest
-        - platform: windows
-          os_runner: windows-latest
-    steps:
+  include:
+    - platform: linux
+      runner: ubuntu-latest
+
+  steps:
       - uses: actions/checkout@v4
 
       - name: Set up Python
