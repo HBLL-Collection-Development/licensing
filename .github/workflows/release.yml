@@ -7,14 +7,13 @@ on:
 
 jobs:
   build:
-    runs-on: ${{ matrix.os_runner }}
+    runs-on: ${{ matrix.runner }}
     strategy:
       matrix:
-  include:
-    - platform: linux
-      runner: ubuntu-latest
-
-  steps:
+        include:
+          - platform: linux
+            runner: ubuntu-latest
+    steps:
       - uses: actions/checkout@v4
 
       - name: Set up Python
