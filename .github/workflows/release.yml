@@ -1,0 +1,45 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os_runner }}
+    strategy:
+      matrix:
+        platform: [linux, macos, windows]
+        os_runner: [ubuntu-latest, macos-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: ${{ runner.os }}-pip-
+
+      - name: Build on Linux/Mac
+        if: matrix.platform != 'windows'
+        run: |
+          bash scripts/build_${{ matrix.platform }}.sh
+
+      - name: Build on Windows
+        if: matrix.platform == 'windows'
+        shell: pwsh
+        run: |
+          ./scripts/build_windows.ps1
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-${{ matrix.platform }}-${{ github.ref_name }}
+          path: dist/**
